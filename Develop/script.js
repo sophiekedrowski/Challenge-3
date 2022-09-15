@@ -52,7 +52,10 @@ function writePassword() {
   }
   return password;
   }
-console.log(writePassword());
+
+var password  = writePassword()
+
+console.log(password);
 
 
 //get to generate in box on the screen
@@ -61,6 +64,7 @@ console.log(writePassword());
 
   passwordText.value = password;
 
+// document.getElementsById("password").value = password;
 
 
 // Add event listener to generate button
